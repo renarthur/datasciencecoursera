@@ -1,0 +1,25 @@
+##step1: Data download and unzip 
+
+# string variables for file download
+# File download verification. If file does not exist, download to working directory.
+# File unzip verification. If the directory does not exist, unzip the downloaded file.
+
+##step 2:read data
+# Load: activity labels
+# Load: data column names
+# Load: test data
+# Load: training data
+# Load: Test labels
+# Load: Training labels
+
+##setp 3: 1.Merges the training and the test sets to create one data set file: allData.txt
+
+##step 4:##2.Extracts only the measurements on the mean(mean(): Mean value) and standard deviation(std(): Standard deviation) for each measurement.
+
+##step 5:# 3.Uses descriptive activity names to name the activities in the data set
+
+##step 6: #4.Appropriately labels the data set with descriptive variable names.
+
+
+##step 7: #From the data set in step 6, creates a second, independent tidy data set with the average of each variable for each activity and each subject, and output a text file that named TidyData.txt
+
