@@ -52,7 +52,7 @@ colnames(x)<-features[,2]
 
 ##step 4:##2.Extracts only the measurements on the mean(mean(): Mean value) and standard deviation(std(): Standard deviation) for each measurement.
 
-ExtraData<-x[,grep("mean()|std()",colnames(x))]
+ExtraData<-x[,grep("mean()|std()",colnames(x),ignore.case = T)]
 
 
 
